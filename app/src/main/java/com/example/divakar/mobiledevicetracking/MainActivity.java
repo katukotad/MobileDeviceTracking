@@ -20,9 +20,9 @@ import java.util.Map;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     String DeviceModel, DeviceName, DeviceVersion;
-
-//Enter your database URl here
-    private static final String REGISTER_URL = "http://192.168.1.25/login/register.php";
+//Change here
+//Enter your database URl here to send the data to database
+    private static final String REGISTER_URL = "ENTER YOUR DATABASE URL HERE";
 
     public static final String KEY_MODEL = "model";
     public static final String KEY_DEVICE = "device";
